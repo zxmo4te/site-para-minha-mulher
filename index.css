@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(112, 44, 214, 0.644);
+    color: #1e1e1e;
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+/* título pequeno */
+.small-title {
+    font-family: 'Courier Prime', monospace;
+    font-size: 14px;
+    letter-spacing: 2px;
+    opacity: 0.6;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+/* poema */
+.poem p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+/* player */
+.music {
+    margin: 60px 0;
+}
+
+/* final */
+.end {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.final-line {
+    font-size: 16px;
+    opacity: 0.7;
+    font-style: italic;
+}
+.dedication {
+  margin-top: 30px;
+  padding: 25px 30px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(167, 140, 207, 0.4);
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
+}
+
+/* título */
+.dedication h3 {
+  font-size: 1.1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+  color: #cbb6e8;
+  opacity: 0.85;
+}
+
+/* poema */
+.dedication p {
+  font-size: 0.95em;
+  line-height: 1.9;
+  color: #e6e0f0;
+  white-space: pre-line;
+}
+
+/* emoji mais suave */
+.dedication p span,
+.dedication p emoji {
+  opacity: 0.8;
+}
+.white-space-button {
+  display: inline-block;
+  margin-top: 35px;
+  padding: 14px 34px;
+
+  font-size: 0.95em;
+  letter-spacing: 1.2px;
+  text-transform: lowercase;
+
+  color: #6d4fa3; /* roxo suave */
+  background: 
+    repeating-linear-gradient(
+      45deg,
+      rgba(167, 140, 207, 0.08),
+      rgba(167, 140, 207, 0.08) 4px,
+      rgba(255, 255, 255, 0.95) 4px,
+      rgba(255, 255, 255, 0.95) 8px
+    );
+
+  border: 1px solid rgba(167, 140, 207, 0.6);
+  border-radius: 30px;
+
+  text-decoration: none;
+
+  box-shadow:
+    0 6px 18px rgba(0, 0, 0, 0.25),
+    inset 0 0 12px rgba(255, 255, 255, 0.6);
+
+  transition: all 0.35s ease;
+}
+
+/* hover suave, quase imperceptível */
+.white-space-button:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 10px 22px rgba(0, 0, 0, 0.3),
+    inset 0 0 14px rgba(0, 0, 0, 0.7);
+  color: #8b6fc2;
+}
+
+/* efeito de "respiração" opcional */
+.white-space-button:active {
+  transform: translateY(0);
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.2),
+    inset 0 0 10px rgba(201, 23, 23, 0.5);
+}
+
